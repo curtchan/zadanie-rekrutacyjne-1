@@ -1,6 +1,9 @@
 ## Cel zadania
 Stworzenie prostego klienta do [API NBP](http://api.nbp.pl/)
 
+## Przed rozpoczęciem
+* Upewnij się że katalog vendor został wygenerowany (komenda `composer install`), bez tego nie będzie działał autoloading
+
 ## Kroki
 ### Stwórz klasę Klienta API
 * Możesz skorzystać z bibliotek gotowych do komunikacji z serwerami zewnętrznymi (`guzzle`, `symfony/http-client`), 
