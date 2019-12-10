@@ -1,0 +1,17 @@
+{
+    "name": "curtchan/zadanie-rekrutacyjne-1",
+    "description": "Zadanie rekrutacyjne polegające na stworzeniu prostego klienta do API NBP",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App"
+        }
+    },
+    "type": "project",
+    "authors": [
+        {
+            "name": "Marcin Klimek",
+            "email": "marcin.r.k@o2.pl"
+        }
+    ],
+    "require": {}
+}
