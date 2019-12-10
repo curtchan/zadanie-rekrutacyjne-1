@@ -19,7 +19,7 @@ interface ClientInterface
      * @param $currency
      * @param \DateTime $date
      *
-     * @return float|null
+     * @return array
      */
     public function getExchangeRateForDay($table, $currency, \DateTime $date);
 }
