@@ -7,12 +7,19 @@ interface ClientInterface
     /**
      * @param string $table
      * @param string $currency
-     * @param \DateTimeImmutable $dateFrom
-     * @param \DateTimeImmutable $dateTo
+     * @param \DateTime $dateFrom
+     * @param \DateTime $dateTo
      *
      * @return array
      */
-    public function getExchangeRatesBetween($table, $currency, \DateTimeImmutable $dateFrom, \DateTimeImmutable $dateTo);
+    public function getExchangeRatesBetween($table, $currency, \DateTime $dateFrom, \DateTime $dateTo);
 
-    public function getExchangeRateForDay($table, $currency, \DateTimeImmutable $date);
+    /**
+     * @param $table
+     * @param $currency
+     * @param \DateTime $date
+     *
+     * @return float|null
+     */
+    public function getExchangeRateForDay($table, $currency, \DateTime $date);
 }
